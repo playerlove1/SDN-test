@@ -14,7 +14,6 @@ def MininetTopo():
     # Add left host h2
     righthost = net.addHost("h2")
     
-    
     info("Create switch node.\n")
     # Add switch 
     switch = net.addSwitch("s1", failMode = 'standalone')
